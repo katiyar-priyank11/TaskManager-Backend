@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // MongoDB connection setup
-mongoose.connect('mongodb+srv://happykatiyar0:kFSp7J042v2jEGf5@cluster0.hzrtosb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://happykatiyar0:kFSp7J042v2jEGf5@cluster0.hzrtosb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/taskmanager', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
